@@ -20,6 +20,16 @@ namespace SchoolMS
 
         }
 
+        public static void sno(DataGridView gv, string colname)
+        {
+            int count = 0;
+            foreach (DataGridView row in gv.Rows)
+            {
+               
+             //   row.Cells[colname].Value = count;
+            }
+        }
+
         public static DialogResult showMSG(string msg, string heading, string type)
         {
             if (type == "Success")
