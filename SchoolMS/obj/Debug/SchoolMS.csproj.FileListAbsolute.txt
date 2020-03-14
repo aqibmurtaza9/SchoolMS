@@ -1,0 +1,44 @@
+D:\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe.config
+D:\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe
+D:\SchoolMS\SchoolMS\bin\Debug\SchoolMS.pdb
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csprojAssemblyReference.cache
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.MDI.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Properties.Resources.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csproj.GenerateResource.cache
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.exe
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.pdb
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Login.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Setting.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.HomeScreen.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample2.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Staff.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Classes.resources
+D:\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Roles.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe.config
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.pdb
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Classes.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.HomeScreen.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Login.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.MDI.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Roles.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Properties.Resources.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample2.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Setting.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Staff.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csproj.GenerateResource.cache
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.exe
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.pdb
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sections.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Attendance.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.ClassTimings.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Groups.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Notifications.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Students.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Subjects.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.TimeTable.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.FeeVoucher.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Shifts.resources
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csprojResolveAssemblyReference.cache
