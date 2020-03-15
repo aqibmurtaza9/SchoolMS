@@ -29,18 +29,19 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.roleBtn = new System.Windows.Forms.Label();
             this.statusBtn = new System.Windows.Forms.Label();
             this.rolesText = new System.Windows.Forms.TextBox();
             this.statusDropdown = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rolesdataGridView = new System.Windows.Forms.DataGridView();
-            this.rolesDGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rolesErrorLabel = new System.Windows.Forms.Label();
+            this.statusErrorLabel = new System.Windows.Forms.Label();
+            this.roleIDGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.snoGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roleGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rolesErrorLabel = new System.Windows.Forms.Label();
-            this.statusErrorLabel = new System.Windows.Forms.Label();
             this.LeftPanel.SuspendLayout();
             this.panel6.SuspendLayout();
             this.RightPanel.SuspendLayout();
@@ -150,28 +151,60 @@
             this.rolesdataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.rolesdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.rolesdataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.rolesDGV,
+            this.roleIDGV,
             this.snoGV,
             this.roleGV,
             this.statusGV});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.rolesdataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.rolesdataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rolesdataGridView.Location = new System.Drawing.Point(3, 22);
             this.rolesdataGridView.Name = "rolesdataGridView";
             this.rolesdataGridView.ReadOnly = true;
             this.rolesdataGridView.RowHeadersVisible = false;
             this.rolesdataGridView.RowHeadersWidth = 51;
+            this.rolesdataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.rolesdataGridView.Size = new System.Drawing.Size(1287, 543);
             this.rolesdataGridView.TabIndex = 0;
+            this.rolesdataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.rolesdataGridView_CellClick);
             // 
-            // rolesDGV
+            // rolesErrorLabel
             // 
-            this.rolesDGV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.rolesDGV.HeaderText = "Roles Id";
-            this.rolesDGV.MinimumWidth = 6;
-            this.rolesDGV.Name = "rolesDGV";
-            this.rolesDGV.ReadOnly = true;
-            this.rolesDGV.Visible = false;
-            this.rolesDGV.Width = 125;
+            this.rolesErrorLabel.AutoSize = true;
+            this.rolesErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rolesErrorLabel.Location = new System.Drawing.Point(194, 73);
+            this.rolesErrorLabel.Name = "rolesErrorLabel";
+            this.rolesErrorLabel.Size = new System.Drawing.Size(27, 30);
+            this.rolesErrorLabel.TabIndex = 4;
+            this.rolesErrorLabel.Text = "*";
+            this.rolesErrorLabel.Visible = false;
+            // 
+            // statusErrorLabel
+            // 
+            this.statusErrorLabel.AutoSize = true;
+            this.statusErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusErrorLabel.Location = new System.Drawing.Point(198, 125);
+            this.statusErrorLabel.Name = "statusErrorLabel";
+            this.statusErrorLabel.Size = new System.Drawing.Size(27, 30);
+            this.statusErrorLabel.TabIndex = 4;
+            this.statusErrorLabel.Text = "*";
+            this.statusErrorLabel.Visible = false;
+            // 
+            // roleIDGV
+            // 
+            this.roleIDGV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.roleIDGV.HeaderText = "Roles Id";
+            this.roleIDGV.MinimumWidth = 6;
+            this.roleIDGV.Name = "roleIDGV";
+            this.roleIDGV.ReadOnly = true;
+            this.roleIDGV.Visible = false;
+            this.roleIDGV.Width = 67;
             // 
             // snoGV
             // 
@@ -195,28 +228,6 @@
             this.statusGV.MinimumWidth = 6;
             this.statusGV.Name = "statusGV";
             this.statusGV.ReadOnly = true;
-            // 
-            // rolesErrorLabel
-            // 
-            this.rolesErrorLabel.AutoSize = true;
-            this.rolesErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rolesErrorLabel.Location = new System.Drawing.Point(194, 73);
-            this.rolesErrorLabel.Name = "rolesErrorLabel";
-            this.rolesErrorLabel.Size = new System.Drawing.Size(27, 30);
-            this.rolesErrorLabel.TabIndex = 4;
-            this.rolesErrorLabel.Text = "*";
-            this.rolesErrorLabel.Visible = false;
-            // 
-            // statusErrorLabel
-            // 
-            this.statusErrorLabel.AutoSize = true;
-            this.statusErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusErrorLabel.Location = new System.Drawing.Point(198, 125);
-            this.statusErrorLabel.Name = "statusErrorLabel";
-            this.statusErrorLabel.Size = new System.Drawing.Size(27, 30);
-            this.statusErrorLabel.TabIndex = 4;
-            this.statusErrorLabel.Text = "*";
-            this.statusErrorLabel.Visible = false;
             // 
             // Roles
             // 
@@ -245,11 +256,11 @@
         private System.Windows.Forms.Label statusBtn;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView rolesdataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rolesDGV;
+        private System.Windows.Forms.Label rolesErrorLabel;
+        private System.Windows.Forms.Label statusErrorLabel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn roleIDGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn snoGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn roleGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn statusGV;
-        private System.Windows.Forms.Label rolesErrorLabel;
-        private System.Windows.Forms.Label statusErrorLabel;
     }
 }

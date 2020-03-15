@@ -22,11 +22,11 @@ namespace SchoolMS
 
         public static void sno(DataGridView gv, string colname)
         {
-            int count = 0;
-            foreach (DataGridView row in gv.Rows)
+             int count = 0;
+            foreach (DataGridViewRow row in gv.Rows)
             {
-               
-             //   row.Cells[colname].Value = count;
+                 count++;
+                 row.Cells[colname].Value = count;
             }
         }
 

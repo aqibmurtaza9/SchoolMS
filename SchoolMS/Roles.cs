@@ -37,6 +37,7 @@ namespace SchoolMS
         public override void editBtn_Click(object sender, EventArgs e)
         {
             edit = 1;
+            MainClass.enable(panel6);
         }
 
         public override void saveBtn_Click(object sender, EventArgs e)
@@ -45,32 +46,60 @@ namespace SchoolMS
             if (statusDropdown.SelectedIndex == -1) { statusErrorLabel.Visible = true; } else { statusErrorLabel.Visible = false; }
             if (rolesErrorLabel.Visible || statusErrorLabel.Visible)
             {
-                MainClass.showMSG("Fields with * are mandatory.","Error","Error");
+                MainClass.showMSG("Fields with * are mandatory.", "Error", "Error");
             }
             else
             {
-               if(edit == 0)   //code for save
+                if (edit == 0)   //code for save
                 {
-                    
+
                     role r = new role();
                     r.r_name = rolesText.Text;
                     if (statusDropdown.SelectedIndex == 0)
                     {
-                       r.r_status=1;
+                        r.r_status = 1;
                     }
                     else
                     {
-                        r.r_status=0;
+                        r.r_status = 0;
                     }
 
                     //obj.roles.InsertOnSubmit(r);
-                    obj.st_InsertRoles(rolesText.Text,r.r_status);
+                    obj.st_InsertRoles(rolesText.Text, r.r_status);
                     obj.SubmitChanges();
-                    MainClass.showMSG(rolesText.Text+" added successfully","Success.","Success");
+                    MainClass.showMSG(rolesText.Text + " added successfully", "Success.", "Success");
                     MainClass.disable_reset(panel6);
+                    loaddata();  
                 }
-               else if(edit==1)   //code for update //lecture 5 18:10 min
+                else if (edit == 1)   //code for update 
                 {
+                    byte stat;
+                    if (statusDropdown.SelectedIndex == 0)
+                    {
+                       stat= 1;
+                    }
+                    else
+                    {
+                       stat = 0;
+                    }
+                    obj.st_UpdateRoles(rolesText.Text,stat,roleID);
+
+                    //var data = obj.roles.Single(x => x.r_id == roleID);    // db roleId = DG 
+                    //       data.r_name = rolesText.Text;
+                    //    if (statusDropdown.SelectedIndex == 0)
+                    //    {
+                    //       data.r_status = 1;
+                    //    }
+                    //    else
+                    //    {
+                    //        data.r_status = 0;
+                    //    }
+                    //    obj.SubmitChanges();
+
+                    MainClass.showMSG(rolesText.Text + " update successfully", "Success..", "Success");
+                    MainClass.disable_reset(panel6);
+                    loaddata();
+
 
                 }
             }
@@ -78,12 +107,22 @@ namespace SchoolMS
 
         public override void deleteBtn_Click(object sender, EventArgs e)
         {
-
+            if (edit == 1)
+            {
+                DialogResult dr = MessageBox.Show("Are you sure you want to delete " + rolesText.Text + "?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dr == DialogResult.Yes)
+                {
+                    obj.sr_deleteRoles(roleID);
+                    MainClass.showMSG(rolesText.Text + " Deleted successfully", "Success..", "Success");
+                    MainClass.disable_reset(panel6);
+                    loaddata();
+                }
+            }
         }
 
         public override void viewBtn_Click(object sender, EventArgs e)
         {
-
+            loaddata();
         }
 
         public override void searchtextbox_TextChanged(object sender, EventArgs e)
@@ -91,9 +130,36 @@ namespace SchoolMS
 
         }
 
+        private void loaddata()
+        {
+
+            MainClass.disable_reset(panel6);
+            var abc = obj.st_getRoles();
+
+            roleIDGV.DataPropertyName = "ID";
+            roleGV.DataPropertyName = "Role";
+            statusGV.DataPropertyName =  "Status";
+            rolesdataGridView.DataSource = abc;
+           MainClass.sno(rolesdataGridView,"snoGV");
+        }
         private void Roles_Load(object sender, EventArgs e)
         {
             MainClass.disable_reset(panel6);
+            
+        }
+
+        int roleID;
+        private void rolesdataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1 && e.ColumnIndex != -1)
+            {
+                edit = 1;   // for delete method
+                DataGridViewRow row = rolesdataGridView.Rows[e.RowIndex];
+                roleID = Convert.ToInt32(row.Cells["roleIDGV"].Value.ToString());
+                rolesText.Text = row.Cells["roleGV"].Value.ToString();
+                statusDropdown.SelectedItem = row.Cells["statusGV"].Value.ToString();
+
+            }
         }
     }
 }

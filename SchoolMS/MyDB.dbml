@@ -12,4 +12,21 @@
     <Parameter Name="status" Type="System.Byte" DbType="TinyInt" />
     <Return Type="System.Int32" />
   </Function>
+  <Function Name="dbo.st_getRoles" Method="st_getRoles">
+    <ElementType Name="st_getRolesResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Role" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.st_UpdateRoles" Method="st_UpdateRoles">
+    <Parameter Name="name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="status" Type="System.Byte" DbType="TinyInt" />
+    <Parameter Name="roleID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sr_deleteRoles" Method="sr_deleteRoles">
+    <Parameter Name="roleID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
 </Database>
