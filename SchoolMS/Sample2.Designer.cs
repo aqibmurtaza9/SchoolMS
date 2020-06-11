@@ -37,7 +37,7 @@
             this.deleteBtn = new System.Windows.Forms.Button();
             this.viewBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.searchtextbox = new System.Windows.Forms.TextBox();
+            this.searchtxt = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.backBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -178,7 +178,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.searchtextbox);
+            this.groupBox1.Controls.Add(this.searchtxt);
             this.groupBox1.Location = new System.Drawing.Point(818, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(163, 50);
@@ -186,14 +186,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search";
             // 
-            // searchtextbox
+            // searchtxt
             // 
-            this.searchtextbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchtextbox.Location = new System.Drawing.Point(3, 22);
-            this.searchtextbox.Name = "searchtextbox";
-            this.searchtextbox.Size = new System.Drawing.Size(157, 26);
-            this.searchtextbox.TabIndex = 0;
-            this.searchtextbox.TextChanged += new System.EventHandler(this.searchtextbox_TextChanged);
+            this.searchtxt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.searchtxt.Location = new System.Drawing.Point(3, 22);
+            this.searchtxt.Name = "searchtxt";
+            this.searchtxt.Size = new System.Drawing.Size(157, 26);
+            this.searchtxt.TabIndex = 0;
+            this.searchtxt.TextChanged += new System.EventHandler(this.searchtextbox_TextChanged);
             // 
             // panel2
             // 
@@ -263,7 +263,7 @@
         private System.Windows.Forms.Button deleteBtn;
         private System.Windows.Forms.Button viewBtn;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox searchtextbox;
+        public System.Windows.Forms.TextBox searchtxt;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button backBtn;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;

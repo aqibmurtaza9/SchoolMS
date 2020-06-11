@@ -40,7 +40,7 @@
             // 
             // LeftPanel
             // 
-            this.LeftPanel.Size = new System.Drawing.Size(240, 642);
+            this.LeftPanel.Size = new System.Drawing.Size(240, 578);
             // 
             // panel6
             // 
@@ -49,33 +49,34 @@
             this.panel6.Controls.Add(this.textBox1);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Controls.Add(this.label1);
-            this.panel6.Size = new System.Drawing.Size(240, 588);
+            this.panel6.Size = new System.Drawing.Size(240, 529);
             // 
             // RightPanel
             // 
-            this.RightPanel.Size = new System.Drawing.Size(914, 642);
+            this.RightPanel.Size = new System.Drawing.Size(914, 578);
             // 
             // panel5
             // 
-            this.panel5.Location = new System.Drawing.Point(0, 40);
-            this.panel5.Size = new System.Drawing.Size(914, 602);
+            this.panel5.Location = new System.Drawing.Point(0, 36);
+            this.panel5.Size = new System.Drawing.Size(914, 542);
             // 
             // panel3
             // 
-            this.panel3.Size = new System.Drawing.Size(914, 40);
+            this.panel3.Size = new System.Drawing.Size(914, 36);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 282);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(28, 254);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 18);
+            this.label1.Size = new System.Drawing.Size(103, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Password";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 305);
+            this.textBox1.Location = new System.Drawing.Point(32, 279);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(187, 26);
             this.textBox1.TabIndex = 3;
@@ -83,15 +84,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 228);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(28, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 18);
+            this.label2.Size = new System.Drawing.Size(108, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "Username";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(32, 251);
+            this.textBox2.Location = new System.Drawing.Point(32, 226);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(187, 26);
             this.textBox2.TabIndex = 3;
@@ -101,9 +103,10 @@
             this.loginbtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.loginbtn.FlatAppearance.BorderSize = 2;
             this.loginbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginbtn.Location = new System.Drawing.Point(57, 360);
+            this.loginbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginbtn.Location = new System.Drawing.Point(57, 324);
             this.loginbtn.Name = "loginbtn";
-            this.loginbtn.Size = new System.Drawing.Size(130, 40);
+            this.loginbtn.Size = new System.Drawing.Size(130, 36);
             this.loginbtn.TabIndex = 4;
             this.loginbtn.Text = "LOGIN";
             this.loginbtn.UseVisualStyleBackColor = true;
@@ -112,9 +115,9 @@
             // Login
             // 
             this.AcceptButton = this.loginbtn;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1154, 642);
+            this.ClientSize = new System.Drawing.Size(1154, 578);
             this.ControlBox = false;
             this.Name = "Login";
             this.Text = "Login";

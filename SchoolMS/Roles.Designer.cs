@@ -36,12 +36,12 @@
             this.statusDropdown = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rolesdataGridView = new System.Windows.Forms.DataGridView();
-            this.rolesErrorLabel = new System.Windows.Forms.Label();
-            this.statusErrorLabel = new System.Windows.Forms.Label();
             this.roleIDGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.snoGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roleGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rolesErrorLabel = new System.Windows.Forms.Label();
+            this.statusErrorLabel = new System.Windows.Forms.Label();
             this.LeftPanel.SuspendLayout();
             this.panel6.SuspendLayout();
             this.RightPanel.SuspendLayout();
@@ -174,28 +174,6 @@
             this.rolesdataGridView.TabIndex = 0;
             this.rolesdataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.rolesdataGridView_CellClick);
             // 
-            // rolesErrorLabel
-            // 
-            this.rolesErrorLabel.AutoSize = true;
-            this.rolesErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rolesErrorLabel.Location = new System.Drawing.Point(194, 73);
-            this.rolesErrorLabel.Name = "rolesErrorLabel";
-            this.rolesErrorLabel.Size = new System.Drawing.Size(27, 30);
-            this.rolesErrorLabel.TabIndex = 4;
-            this.rolesErrorLabel.Text = "*";
-            this.rolesErrorLabel.Visible = false;
-            // 
-            // statusErrorLabel
-            // 
-            this.statusErrorLabel.AutoSize = true;
-            this.statusErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusErrorLabel.Location = new System.Drawing.Point(198, 125);
-            this.statusErrorLabel.Name = "statusErrorLabel";
-            this.statusErrorLabel.Size = new System.Drawing.Size(27, 30);
-            this.statusErrorLabel.TabIndex = 4;
-            this.statusErrorLabel.Text = "*";
-            this.statusErrorLabel.Visible = false;
-            // 
             // roleIDGV
             // 
             this.roleIDGV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -204,7 +182,6 @@
             this.roleIDGV.Name = "roleIDGV";
             this.roleIDGV.ReadOnly = true;
             this.roleIDGV.Visible = false;
-            this.roleIDGV.Width = 67;
             // 
             // snoGV
             // 
@@ -228,6 +205,28 @@
             this.statusGV.MinimumWidth = 6;
             this.statusGV.Name = "statusGV";
             this.statusGV.ReadOnly = true;
+            // 
+            // rolesErrorLabel
+            // 
+            this.rolesErrorLabel.AutoSize = true;
+            this.rolesErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rolesErrorLabel.Location = new System.Drawing.Point(194, 73);
+            this.rolesErrorLabel.Name = "rolesErrorLabel";
+            this.rolesErrorLabel.Size = new System.Drawing.Size(27, 30);
+            this.rolesErrorLabel.TabIndex = 4;
+            this.rolesErrorLabel.Text = "*";
+            this.rolesErrorLabel.Visible = false;
+            // 
+            // statusErrorLabel
+            // 
+            this.statusErrorLabel.AutoSize = true;
+            this.statusErrorLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusErrorLabel.Location = new System.Drawing.Point(198, 125);
+            this.statusErrorLabel.Name = "statusErrorLabel";
+            this.statusErrorLabel.Size = new System.Drawing.Size(27, 30);
+            this.statusErrorLabel.TabIndex = 4;
+            this.statusErrorLabel.Text = "*";
+            this.statusErrorLabel.Visible = false;
             // 
             // Roles
             // 

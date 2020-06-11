@@ -41,4 +41,31 @@ D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\Scho
 D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.TimeTable.resources
 D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.FeeVoucher.resources
 D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Shifts.resources
-D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csprojResolveAssemblyReference.cache
+D:\BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csprojAssemblyReference.cache
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe.config
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.exe
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\bin\Debug\SchoolMS.pdb
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csprojAssemblyReference.cache
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Attendance.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Classes.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.ClassTimings.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.FeeVoucher.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Groups.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.HomeScreen.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Login.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.MDI.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Notifications.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Roles.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Properties.Resources.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sample2.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Sections.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Setting.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Shifts.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Staff.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Students.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.Subjects.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.TimeTable.resources
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.csproj.GenerateResource.cache
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.exe
+D:\5 BBSYD\8 Videos lecture .Net\40 School Managment System Lectures\SchoolMS\SchoolMS\obj\Debug\SchoolMS.pdb

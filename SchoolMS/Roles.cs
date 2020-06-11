@@ -40,6 +40,8 @@ namespace SchoolMS
             MainClass.enable(panel6);
         }
 
+      
+
         public override void saveBtn_Click(object sender, EventArgs e)
         {
             if (rolesText.Text == "") { rolesErrorLabel.Visible = true; } else { rolesErrorLabel.Visible = false; }
@@ -125,9 +127,19 @@ namespace SchoolMS
             loaddata();
         }
 
+        public void search()
+        {
+            var abc = obj.st_searchRoles(searchtxt.Text);
+            roleIDGV.DataPropertyName = "ID";
+            roleGV.DataPropertyName = "Role";
+            statusGV.DataPropertyName = "Status";
+            rolesdataGridView.DataSource = abc;
+            MainClass.sno(rolesdataGridView, "snoGV");
+        }
+
         public override void searchtextbox_TextChanged(object sender, EventArgs e)
         {
-
+            search();
         }
 
         private void loaddata()

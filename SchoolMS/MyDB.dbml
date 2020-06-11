@@ -29,4 +29,12 @@
     <Parameter Name="roleID" Type="System.Int32" DbType="Int" />
     <Return Type="System.Int32" />
   </Function>
+  <Function Name="dbo.st_searchRoles" Method="st_searchRoles">
+    <Parameter Name="data" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="st_searchRolesResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Role" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
 </Database>

@@ -149,6 +149,11 @@
     <Compile Include="Shifts.Designer.cs">
       <DependentUpon>Shifts.cs</DependentUpon>
     </Compile>
+    <Compile Include="smsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>smsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Staff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,6 +263,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="smsDataSet.xsc">
+      <DependentUpon>smsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="smsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>smsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="smsDataSet.xss">
+      <DependentUpon>smsDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
